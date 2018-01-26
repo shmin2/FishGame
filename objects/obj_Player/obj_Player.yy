@@ -69,6 +69,20 @@
             "value": "30",
             "varName": "spd",
             "varType": 1
+        },
+        {
+            "id": "272dfb06-fa7f-4444-80f3-bb1a1a5aac15",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "currentHealth",
+            "varType": 1
         }
     ],
     "solid": false,
