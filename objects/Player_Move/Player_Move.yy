@@ -24,6 +24,20 @@
     "physicsStartAwake": true,
     "properties": [
         {
+            "id": "25855414-aace-4c3c-9126-3a2da42cad05",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "spd",
+            "varType": 0
+        },
+        {
             "id": "1adf20ac-c4b8-48d7-9d4a-2c1b92e06c09",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -34,35 +48,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "acceleration",
-            "varType": 0
-        },
-        {
-            "id": "25855414-aace-4c3c-9126-3a2da42cad05",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "30",
-            "varName": "spd",
-            "varType": 0
-        },
-        {
-            "id": "f2c7df18-ef6f-4571-b074-a6d30d918386",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "boostTime",
+            "varName": "accelerationBar",
             "varType": 0
         },
         {
@@ -75,8 +61,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "2",
             "varName": "accelerationTime",
+            "varType": 0
+        },
+        {
+            "id": "f6f60695-6cb9-4a95-a02f-93b00a9f1e53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "accelerationRecoveryTime",
             "varType": 0
         }
     ],

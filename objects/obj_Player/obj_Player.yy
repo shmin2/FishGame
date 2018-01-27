@@ -57,6 +57,34 @@
             "value": "100",
             "varName": "currentHealth",
             "varType": 1
+        },
+        {
+            "id": "7c7ee75b-6621-4dcb-928b-6a1acec44853",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "inkBlastCooldown",
+            "varType": 0
+        },
+        {
+            "id": "ee70cc03-3239-4f78-820d-596b26715484",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "inkBlastCooldownTime",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -11,7 +11,4 @@ switch(self.state)
 	case statesList.FreeMove:
 		scrPlayerFreeMove();
 		break;
-	case statesList.BoostMove:
-		scrPlayerBoostMove();
-		break;
 }

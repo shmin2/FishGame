@@ -1,15 +1,15 @@
-if(keyboard_check(vk_shift) && self.acceleration == DataConvertors_GetSeconds(self.accelerationTime))
+if(keyboard_check(vk_shift) && self.accelerationBar == DataConvertors_GetFramesPerSecond(self.accelerationRecoveryTime))
 {
 	self.spd *= 1.5;
-	self.acceleration = 0;
+	self.accelerationBar = 0;
 }
-else if (self.acceleration >=DataConvertors_GetSeconds(2))
+else if (self.accelerationBar >=DataConvertors_GetFramesPerSecond(self.accelerationTime))
 {
-	self.spd = 30;
+	self.spd = 5;
 }
 
-if(acceleration < room_speed * DataConvertors_GetSeconds(self.accelerationTime))
+if(accelerationBar < DataConvertors_GetFramesPerSecond(self.accelerationRecoveryTime))
 {
-	self.acceleration += 1;	
+	self.accelerationBar += 1;	
 }
 

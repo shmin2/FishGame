@@ -1,5 +1,6 @@
 // State actions
 scrPlayerAcceleration();
+scrInkBlast();
 
 if(keyboard_check(ord("A"))) 
 {
@@ -19,15 +20,4 @@ if(keyboard_check(ord("S")))
 if(keyboard_check(ord("W"))) 
 {
 	y -= self.spd;
-}
-
-if(self.boostTime < 0)
-{
-	self.boostTime += 1;
-}
-
-// State change asserts
-if (keyboard_check(vk_space) && (self.boostTime == 0))
-{
-	self.state = statesList.BoostMove;
 }
