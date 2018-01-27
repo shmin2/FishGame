@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+scrGetInteractable();
+
 
 if(self.currentHealth == 0)
 {
