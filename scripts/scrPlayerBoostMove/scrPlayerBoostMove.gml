@@ -7,7 +7,7 @@ if(boostTime == 0)
 if(self.boostTime <= room_speed * 0.3)
 {
 	boostTime += 1;
-	self.x += self.spd;
+	self.x += self.spd * 3;
 }
 else
 {

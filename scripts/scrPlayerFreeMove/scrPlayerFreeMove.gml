@@ -1,22 +1,24 @@
 // State actions
+scrPlayerAcceleration();
+
 if(keyboard_check(ord("A"))) 
 {
-	x = x -4;
+	x -= self.spd;
 }
 
 if(keyboard_check(ord("D"))) 
 {
-	x = x  + 4;
+	x += self.spd;
 }
 
 if(keyboard_check(ord("S"))) 
 {
-	y = y + 4;
+	y += self.spd;
 }
 
 if(keyboard_check(ord("W"))) 
 {
-	y = y -4;
+	y -= self.spd;
 }
 
 if(self.boostTime < 0)
