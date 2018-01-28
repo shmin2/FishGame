@@ -21,3 +21,8 @@ if(keyboard_check(ord("W")))
 {
 	y -= self.spd;
 }
+
+if(scrCheckInteractableCollision() && keyboard_check(ord("E")))
+{
+	self.state = statesList.statePlayerInteractable;
+}

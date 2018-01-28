@@ -99,6 +99,20 @@
             "value": "0",
             "varName": "hint",
             "varType": 0
+        },
+        {
+            "id": "d58333e7-0649-4c9c-8157-862d2cd05f30",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "InteractableType",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -2,9 +2,9 @@
 // You can write your code in this editor
 enum statesList
 {
-	FreeMove,
-	BoostMove,
+	statePlayerFreeMove,
+	statePlayerInteractable,
 }
 
-state = statesList.FreeMove;
-
+state = statesList.statePlayerFreeMove;
+self.hint = undefined;
