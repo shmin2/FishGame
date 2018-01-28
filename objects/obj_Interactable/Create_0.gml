@@ -4,3 +4,6 @@ enum InteractableType
 {
 	LockPickSafe	
 }
+
+
+inta = 1;
